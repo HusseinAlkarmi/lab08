@@ -1,6 +1,5 @@
 header{
-    padding: 30px;
-    
+    padding: 30px;  
 }
 
 nav ul li{
@@ -14,31 +13,31 @@ nav{
     background-color: grey; 
 }
 
-#first img{
+section:nth-of-type(1) > img{
     margin-left: 270px;
     margin-bottom: 30px;
-    }
+}
     
-    #second{
+    section:nth-of-type(2){
     margin-left: 245px;
     }
 
-    #second img{
+    section:nth-of-type(2) img{
         padding-left: 25px;
 
     }
 
-    #third{
+    section:nth-of-type(3){
         display: inline-block;
         margin-left: 270px;
         margin-top: 30px;
     }
 
-    #third img{
+    section:nth-of-type(3) img{
         float: left;
         padding-right: 25px;
     }
-    .scroll{
+    section:nth-of-type(3) > div{
         margin-top: 10px;
         margin-right: 270px; ;
         height: 353px;

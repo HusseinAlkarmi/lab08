@@ -22,6 +22,7 @@ nav{
 section:nth-of-type(1) > img{
     margin-left: 270px;
     margin-bottom: 30px;
+    padding-top: 30px;
 }
     
     section:nth-of-type(2){
@@ -29,7 +30,7 @@ section:nth-of-type(1) > img{
     }
 
     section:nth-of-type(2) img{
-        padding-left: 25px;
+        padding-left: 26px;
 
     }
 
@@ -45,7 +46,7 @@ section:nth-of-type(1) > img{
     }
     section:nth-of-type(3) > div{
         margin-top: 10px;
-        margin-right: 270px; ;
+        margin-right: 285px; ;
         height: 353px;
         overflow: auto;
 
@@ -56,10 +57,11 @@ section button{
 }
 
 footer{
-    margin: 30px;
+    margin-top: 30px;
     margin-bottom: 0px;
     background-color: grey;
     height: 100px;
+    width: 100%;
 }
 
 

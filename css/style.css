@@ -1,16 +1,22 @@
 header{
-    padding: 30px;  
+   
+   width: 100%;
+   
+    
 }
 
 nav ul li{
     display: inline-block;
     margin: 30px;
-    font-size: 20px;  
+    font-size: 20px; 
+   
 }
 
 nav{
     text-align: center;
     background-color: grey; 
+    color: white;
+    
 }
 
 section:nth-of-type(1) > img{
